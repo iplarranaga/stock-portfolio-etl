@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Statement name="dividendos_2026">
+  <ChangeInDividendAccruals>
+    <ChangeInDividendAccrual symbol="ACME" payDate="20251114" grossAmount="33.00" tax="4.95" netAmount="28.05" currency="USD" fxRateToBase="0.89" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20251114" grossAmount="-33.00" tax="-4.95" netAmount="-28.05" currency="USD" fxRateToBase="0.89" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20260213" grossAmount="33.00" tax="4.95" netAmount="28.05" currency="USD" fxRateToBase="0.86" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20260213" grossAmount="-33.00" tax="-4.95" netAmount="-28.05" currency="USD" fxRateToBase="0.86" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20260515" grossAmount="24.75" tax="3.71" netAmount="21.04" currency="USD" fxRateToBase="0.86" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20260515" grossAmount="-24.75" tax="-3.71" netAmount="-21.04" currency="USD" fxRateToBase="0.86" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20260814" grossAmount="24.75" tax="3.71" netAmount="21.04" currency="USD" fxRateToBase="0.86" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20260814" grossAmount="-24.75" tax="-3.71" netAmount="-21.04" currency="USD" fxRateToBase="0.86" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20261113" grossAmount="24.75" tax="3.71" netAmount="21.04" currency="USD" fxRateToBase="0.86" />
+    <ChangeInDividendAccrual symbol="NRTH" payDate="20251219" grossAmount="90.00" tax="0.00" netAmount="90.00" currency="GBP" fxRateToBase="1.18" />
+    <ChangeInDividendAccrual symbol="NRTH" payDate="20251219" grossAmount="-90.00" tax="-0.00" netAmount="-90.00" currency="GBP" fxRateToBase="1.18" />
+    <ChangeInDividendAccrual symbol="NRTH" payDate="20260703" grossAmount="90.00" tax="0.00" netAmount="90.00" currency="GBP" fxRateToBase="1.15" />
+    <ChangeInDividendAccrual symbol="NRTH" payDate="20260703" grossAmount="-90.00" tax="-0.00" netAmount="-90.00" currency="GBP" fxRateToBase="1.15" />
+    <ChangeInDividendAccrual symbol="HDL" payDate="20260429" grossAmount="56.25" tax="14.84" netAmount="41.41" currency="EUR" fxRateToBase="1.0" />
+    <ChangeInDividendAccrual symbol="HDL" payDate="20260429" grossAmount="-56.25" tax="-14.84" netAmount="-41.41" currency="EUR" fxRateToBase="1.0" />
+  </ChangeInDividendAccruals>
+</Statement>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Statement name="Operaciones_2025_2026">
+  <Trades>
+    <Trade symbol="NRTH" tradeDate="20250115" quantity="100" tradePrice="10.5000" ibCommission="-3.00" currency="GBP" fxRateToBase="1.18" tradeMoney="1050.00" />
+    <Trade symbol="ACME" tradeDate="20250603" quantity="20" tradePrice="120.0000" ibCommission="-1.00" currency="USD" fxRateToBase="0.89" tradeMoney="2400.00" />
+    <Trade symbol="ACME" tradeDate="20260310" quantity="-30" tradePrice="88.0000" ibCommission="-1.00" currency="USD" fxRateToBase="0.86" tradeMoney="-2640.00" />
+    <Trade symbol="ACME" tradeDate="20260402" quantity="15" tradePrice="90.0000" ibCommission="-1.00" currency="USD" fxRateToBase="0.86" tradeMoney="1350.00" />
+    <Trade symbol="HDL" tradeDate="20260714" quantity="-25" tradePrice="78.0000" ibCommission="-1.25" currency="EUR" fxRateToBase="1.0" tradeMoney="-1950.00" />
+  </Trades>
+</Statement>

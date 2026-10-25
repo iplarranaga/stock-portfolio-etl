@@ -1,0 +1,4 @@
+pay_date,ticker,gross_amount_eur,withholding_tax_eur,net_amount_eur,currency,broker
+2024-05-21,FRV,63.00,8.06,54.94,EUR,Broker C
+2025-05-20,FRV,67.50,8.64,58.86,EUR,Broker C
+2026-05-19,FRV,72.00,9.22,62.78,EUR,Broker C

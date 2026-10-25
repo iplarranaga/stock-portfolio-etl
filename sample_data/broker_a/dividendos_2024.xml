@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Statement name="dividendos_2024">
+  <ChangeInDividendAccruals>
+    <ChangeInDividendAccrual symbol="ACME" payDate="20240516" grossAmount="22.00" tax="3.30" netAmount="18.70" currency="USD" fxRateToBase="0.92" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20240516" grossAmount="-22.00" tax="-3.30" netAmount="-18.70" currency="USD" fxRateToBase="0.92" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20240815" grossAmount="22.00" tax="3.30" netAmount="18.70" currency="USD" fxRateToBase="0.92" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20240815" grossAmount="-22.00" tax="-3.30" netAmount="-18.70" currency="USD" fxRateToBase="0.92" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20241115" grossAmount="22.00" tax="3.30" netAmount="18.70" currency="USD" fxRateToBase="0.92" />
+    <ChangeInDividendAccrual symbol="ACME" payDate="20241115" grossAmount="-22.00" tax="-3.30" netAmount="-18.70" currency="USD" fxRateToBase="0.92" />
+    <ChangeInDividendAccrual symbol="NRTH" payDate="20241220" grossAmount="60.00" tax="0.00" netAmount="60.00" currency="GBP" fxRateToBase="1.17" />
+    <ChangeInDividendAccrual symbol="NRTH" payDate="20241220" grossAmount="-60.00" tax="-0.00" netAmount="-60.00" currency="GBP" fxRateToBase="1.17" />
+  </ChangeInDividendAccruals>
+</Statement>

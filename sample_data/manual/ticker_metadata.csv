@@ -1,0 +1,10 @@
+ticker,company_name,sector,country_code,canonical_ticker,isin
+ACME,Acme Robotics Inc.,Industrials,US,ACME,US0ACME00001
+NRTH,Northwind Utilities plc,Utilities,GB,NRTH,GB0NRTH00002
+HDL,Heidler Chemie AG,Materials,DE,HDL,DE000HDL0003
+SOLE,Ibersol Energía S.A.,Utilities,ES,SOLE,ES0SOLE00004
+IBERSOL ENERGIA,Ibersol Energía S.A.,Utilities,ES,SOLE,ES0SOLE00004
+SOLE DERECHOS,Ibersol Energía S.A. (derechos),Utilities,ES,SOLE.D,ES0SOLE0D005
+BANCO CANTABRO,Banco Cantábrico S.A.,Financials,ES,BCAN,ES0BCAN00006
+FRV,Fromagerie Vallée S.A.,Consumer Staples,FR,FRV,FR000FRV0007
+FROMAGERIE VALLEE,Fromagerie Vallée S.A.,Consumer Staples,FR,FRV,FR000FRV0007

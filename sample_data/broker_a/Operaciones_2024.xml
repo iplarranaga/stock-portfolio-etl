@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Statement name="Operaciones_2024">
+  <Trades>
+    <Trade symbol="EUR.USD" tradeDate="20240212" quantity="3500" tradePrice="1.0780" ibCommission="-2.00" currency="USD" fxRateToBase="0.92" tradeMoney="3773.00" />
+    <Trade symbol="ACME" tradeDate="20240212" quantity="40" tradePrice="95.0000" ibCommission="-1.00" currency="USD" fxRateToBase="0.92" tradeMoney="3800.00" />
+    <Trade symbol="NRTH" tradeDate="20240520" quantity="200" tradePrice="9.8000" ibCommission="-3.00" currency="GBP" fxRateToBase="1.17" tradeMoney="1960.00" />
+    <Trade symbol="HDL" tradeDate="20240909" quantity="25" tradePrice="64.0000" ibCommission="-1.25" currency="EUR" fxRateToBase="1.0" tradeMoney="1600.00" />
+  </Trades>
+</Statement>
