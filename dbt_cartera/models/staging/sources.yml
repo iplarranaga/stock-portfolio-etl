@@ -1,0 +1,43 @@
+version: 2
+
+sources:
+  - name: broker_a
+    schema: raw
+    tables:
+      - name: broker_a_trades
+        description: Raw Broker A buy/sell transactions from Operaciones_*.xml (all years)
+        columns:
+          - name: symbol
+            tests: [not_null]
+      - name: broker_a_dividend_accruals
+        description: Raw Broker A dividend accruals from dividendos_*.xml (all years)
+        columns:
+          - name: symbol
+            tests: [not_null]
+
+  - name: broker_b
+    schema: raw
+    tables:
+      - name: broker_b_dividends
+        description: Raw Broker B dividend payments from Dividendos_*.xls
+      - name: broker_b_trades
+        description: Raw Broker B buy/sell transactions from Operaciones_*.xls
+
+  - name: manual
+    schema: raw
+    tables:
+      - name: manual_trades
+        description: Hand-maintained trades for brokers without export (e.g. Broker C)
+      - name: manual_dividends
+        description: Hand-maintained dividends for brokers without export (e.g. Broker C)
+      - name: ticker_metadata
+        description: Company name, sector, country and ISIN per broker symbol, from data/manual/ticker_metadata.csv
+        columns:
+          - name: ticker
+            tests: [not_null, unique]
+
+  - name: ecb
+    schema: raw
+    tables:
+      - name: ecb_fx_rates
+        description: ECB euro reference rates (units of currency per 1 EUR), from loaders/ecb_loader.py

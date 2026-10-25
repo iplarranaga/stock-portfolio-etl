@@ -1,0 +1,37 @@
+name: dbt_cartera
+version: "1.0.0"
+profile: dbt_cartera
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  dbt_cartera:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      dividends:
+        +schema: marts
+      portfolio:
+        +schema: marts
+      tax:
+        +schema: marts
+
+seeds:
+  dbt_cartera:
+    +schema: seeds
+
+vars:
+  # First sale date reported by fct_capital_gains (earlier years already filed).
+  # FIFO matching still runs over the full trade history.
+  capital_gains_from: "2026-01-01"

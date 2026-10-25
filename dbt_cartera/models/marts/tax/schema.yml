@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: fct_tax_report
+    description: Dividends per year × ticker × currency × broker, in euros at the ECB rate, with foreign vs Spanish withholding
+  - name: fct_capital_gains
+    description: Share sales matched FIFO to purchase lots across brokers, in euros at the ECB rate, with the two-month rule applied
+    columns:
+      - name: sale_date
+        tests: [not_null]
+      - name: ticker
+        tests: [not_null]
+      - name: quantity
+        tests: [not_null]
+      - name: gain_loss_eur
+        tests: [not_null]

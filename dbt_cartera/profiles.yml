@@ -1,0 +1,7 @@
+dbt_cartera:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('CARTERA_DB_PATH', '../database/cartera.db') }}"
+      schema: main

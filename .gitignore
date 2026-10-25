@@ -1,0 +1,16 @@
+data/
+database/
+dbt_cartera/target/
+dbt_cartera/logs/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+exports/
+logs/
+*.db
+.user.yml
+.claude/
+
+# Personal Divvy Diary export, kept out of the public repo
+export_divvy_diary.py

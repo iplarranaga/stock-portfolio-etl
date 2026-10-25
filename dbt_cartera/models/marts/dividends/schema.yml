@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: fct_dividends
+    description: One row per dividend payment event, with gross/tax/net breakdown (Broker A) or net only (Broker B)
+    columns:
+      - name: ticker
+        tests: [not_null]
+      - name: pay_date
+        tests: [not_null]
+      - name: net_amount
+        tests: [not_null]
+      - name: broker
+        tests: [not_null]

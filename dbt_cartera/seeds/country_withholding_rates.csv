@@ -1,0 +1,21 @@
+country_code,country_name,withholding_rate_pct
+US,United States,15.0
+GB,United Kingdom,0.0
+DE,Germany,26.375
+FR,France,12.8
+NL,Netherlands,15.0
+ES,Spain,19.0
+CH,Switzerland,35.0
+IE,Ireland,25.0
+LU,Luxembourg,15.0
+BE,Belgium,30.0
+IT,Italy,26.0
+SE,Sweden,30.0
+DK,Denmark,27.0
+NO,Norway,25.0
+FI,Finland,20.0
+AU,Australia,30.0
+CA,Canada,25.0
+JP,Japan,15.315
+HK,Hong Kong,0.0
+SG,Singapore,0.0

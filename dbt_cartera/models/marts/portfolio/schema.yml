@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: fct_positions
+    description: Current open positions derived from trade history
+    columns:
+      - name: ticker
+        tests: [not_null]
+      - name: quantity
+        tests: [not_null]
+
+  - name: fct_pnl
+    description: Realised P&L per ticker and broker from trade history
+    columns:
+      - name: ticker
+        tests: [not_null]
