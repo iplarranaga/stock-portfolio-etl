@@ -1,0 +1,36 @@
+name: pipeline
+
+# Runs the full pipeline (loaders → dbt seed/run/test) on the fictional
+# sample data in sample_data/. The Google Sheet export is skipped.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Load sample data and build dbt models
+        run: ./refresh.sh
+        env:
+          CARTERA_DATA_DIR: sample_data
+
+      - name: Show marts
+        run: |
+          python - <<'PY'
+          import duckdb
+          conn = duckdb.connect("database/sample_data.db", read_only=True)
+          for table in ["fct_positions", "fct_capital_gains", "fct_tax_report"]:
+              print(f"\n== {table}")
+              conn.sql(f"select * from main_marts.{table}").show(max_width=250)
+          PY
